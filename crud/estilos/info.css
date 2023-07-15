@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/MicrosoftTeams-image\ \(6\).png) no-repeat;
+    background-size: 100%;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.table{
+    width: 50%;
+    margin: auto;
+    background: rgba(252, 252, 252, 0.5);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius:15px;
+    border:none;
+}
+
+.table tr th{
+    text-align: center;
+    border: none;
+}
+
+.table tr td{
+    text-align: center;
+    font-weight: 700;
+    border: none;
+}
+
+.btn button{
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4086d6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    width: auto;
+    padding: 5px;
+}
+
+.btn button a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+}

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/logo.png) ;
+}
+
+.usuarios,
+.actualizar,
+.app,
+.eliminar{
+    width: 100%;
+    max-width: 500px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.aplicativos{
+    width: 100%;
+    max-width: 900px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.aplicativos{
+    display: flex;
+}
+
+.usuarios h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.usuarios input {
+    padding: 2px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.usuarios label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.actualizar h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actualizar input {
+    padding: 2px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.actualizar label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.app h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app input {
+    padding: 2px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.app label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.eliminar h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.eliminar input {
+    padding: 2px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.eliminar label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.aplicativos h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aplicativos input {
+    padding: 2px 5px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.aplicativos label {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn input {
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4086d6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    width: auto;
+    padding: 5px 5%;
+}
+
+.btn button{
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4086d6;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    width: auto;
+    padding: 5px;
+}
+
+.btn button a{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding: 5px;
+}
+
+.btn button:hover{
+    background: #d6770a;
+    transition: all 0.5s ease;
+}
+
+.formulario-animado {
+  animation: rotar 0.5s;
+}
+
+@keyframes rotar {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-md-3{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color: #000;
+    margin-left: 5px;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+.col-md-3 input{
+    width: 100%;
+    padding: 3px;
+    
+}
+
+.select{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 10px;
+}
